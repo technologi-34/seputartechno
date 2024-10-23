@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tech Innovations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap">
+</head>
+<body>
+    <!-- Header dengan navigasi -->
+    <header>
+        <nav>
+            <div class="logo">inovasi techno</div>
+            <ul class="nav-links">
+                <li><a href="#hero-content">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover the Future of Technology</h1>
+            <p>Jelajahi inovasi terbaru dalam dunia teknologi dan temukan bagaimana perkembangan terkini</p>
+        </div>
+    </section>
+
+    <!-- Artikel Teknologi -->
+    <section id="articles" class="articles">
+        <h2>Latest Tech Articles</h2>
+        <div class="article-grid">
+            <article>
+                <h3>Perkembangan teknologi di Indonesia</h3>
+                <p>menyelami revolusi teknologi yang sedang melanda Indonesia, dari geliat inovasi di kota-kota besar hingga upaya meretas kesenjangan digital di pelosok negeri</p>
+                <a href="#" class="read-more">Read more</a>
+            </article>
+            <article>
+                <h3>Revolusi Gaya Hidup: Manfaat Ponsel sebagai Alat Komunikasi, Informasi, dan Hiburan Modern</h3>
+                <p>Temukan bagaimana ponsel telah merevolusi gaya hidup kita sehari-hari! Artikel ini membahas secara mendalam bagaimana ponsel tidak hanya berfungsi sebagai alat komunikasi yang efektif, tetapi juga sebagai sumber informasi tanpa batas dan hiburan modern yang praktis.</p>
+                <a href="#" class="read-more">Read more</a>
+            </article>
+            <article>
+                <h3>Blockchain and Security</h3>
+                <p>Blockchain technology is revolutionizing data security and transparency in transactions.</p>
+                <a href="#" class="read-more">Read more</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Fill out the form below and we’ll get back to you shortly!</p>
+        <form action="form.php" method="POST" class="contact-form">
+            <div class="input-group">
+                <input type="text" name="name" required>
+                <label>Your Name</label>
+            </div>
+            <div class="input-group">
+                <input type="email" name="email" required>
+                <label>Your Email</label>
+            </div>
+            <div class="input-group">
+                <textarea name="message" required></textarea>
+                <label>Your Message</label>
+            </div>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tech Innovations. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
