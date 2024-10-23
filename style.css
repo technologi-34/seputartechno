@@ -93,7 +93,10 @@ h1 {
     background-color: #121212;
     text-align: center;
 }
-
+article {
+    flex: 1 1 30%; /* Flex item akan mengambil 30% lebar pada layar besar */
+    margin: 10px; 
+}
 .articles h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
