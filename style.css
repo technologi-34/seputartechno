@@ -253,3 +253,21 @@ body.dark-mode .read-more {
 body.dark-mode .read-more:hover {
     color: var(--light-btn-background);
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Ukuran font lebih kecil untuk layar kecil */
+    }
+
+    .hero h1 {
+        font-size: 2rem; /* Ukuran judul yang lebih kecil */
+    }
+
+    .articles {
+        flex-direction: column; /* Mengubah layout menjadi kolom */
+    }
+
+    article {
+        width: 90%; /* Lebar artikel lebih kecil */
+        margin: 0 auto; /* Centering */
+    }
+}
