@@ -108,6 +108,7 @@ article {
     justify-content: column;
     gap: 2rem;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 article {
