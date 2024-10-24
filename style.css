@@ -257,6 +257,6 @@ body.dark-mode .read-more {
 body.dark-mode .read-more:hover {
     color: var(--light-btn-background);
 }
-@media (max-width: 580px) {
+@media (min-width: 460px) {
   /* Ubah gaya untuk layar kecil */
 }
