@@ -1,15 +1,4 @@
-function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-    const isDarkMode = document.body.classList.contains('dark-mode');
 
-    // Sesuaikan dark-mode icon
-    const darkModeToggle = document.querySelector('.dark-mode-toggle');
-    if (isDarkMode) {
-        darkModeToggle.textContent = "🌙"; // Icon for dark mode
-    } else {
-        darkModeToggle.textContent = "☀️"; // Icon for light mode
-    }
-}
 // Mengambil semua link yang mengarah ke bagian tertentu di halaman
 const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
 
